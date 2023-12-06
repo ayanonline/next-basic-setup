@@ -1,6 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+// app/page.tsx
+import { Button } from "@nextui-org/button";
 
-export default function Home() {
-  return <h1>This is Home page</h1>;
+export default function Page() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 }
